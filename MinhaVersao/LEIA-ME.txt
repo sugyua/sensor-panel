@@ -1,0 +1,28 @@
+MINHA VERSAO — PAINEL DE SENSORES
+
+Abra AbrirPainel.vbs para iniciar o painel sem uma janela de console.
+Pressione ESC para fechar.
+
+O painel só inicia quando encontra exatamente um monitor NÃO principal
+com resolução de 1280 x 400. Ele nunca muda para o monitor principal
+como alternativa. Se não encontrar o monitor, consulte Painel.log nesta pasta.
+
+Lê as fontes de monitoramento compartilhadas do MSI Afterburner (interface
+MAHM do SDK oficial instalado pelo próprio Afterburner) em cada atualização.
+As temperaturas e usos de CPU/GPU, clock, memória RAM e VRAM ficam disponíveis
+continuamente, inclusive sem jogo aberto, desde que o MSI Afterburner esteja
+rodando e os respectivos sensores estejam ativos na aba Monitoring.
+O texto da temperatura da CPU ou GPU fica vermelho vivo a partir de 72 graus.
+Esse alerta visual não altera a velocidade das ventoinhas.
+O painel mostra o clock da GPU em GHz e o uso da VRAM em GB.
+
+FPS e frametime representam o jogo/aplicativo renderizado pelo RTSS; não há
+FPS de jogo significativo na área de trabalho quando nenhum jogo está aberto.
+O painel também mostra as velocidades de download e upload em Mb/s, calculadas
+a cada segundo pelo tráfego total das interfaces de rede ativas do Windows.
+O gráfico inferior mostra o FPS ao longo dos últimos 30 segundos e atualiza
+a cada segundo; ele só desenha dados quando há uma captura de jogo ativa.
+O frametime usa a leitura direta do Afterburner quando disponível; se o sensor
+não publicar esse valor, o painel estima o tempo por quadro a partir do FPS.
+
+O original SensorPanel.ps1 e SensorPanel.exe não são modificados.
