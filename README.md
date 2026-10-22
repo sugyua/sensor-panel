@@ -2,7 +2,7 @@
 
 > **Projeto em desenvolvimento. A leitura dos sensores depende dos aplicativos de monitoramento e da configuração do computador. A interface e as leituras ainda precisam de validação manual nesta publicação.**
 
-**[Baixar os arquivos do Sensor Panel](https://github.com/sugyua/sensor-panel/archive/refs/heads/main.zip)** — scripts PowerShell para um painel de monitoramento no Windows, com uma versão original e uma versão personalizada para monitor secundário de 1280 × 400.
+**[Baixar Sensor Panel — pacote 0.1.0 Beta](https://github.com/sugyua/sensor-panel/releases/tag/v0.1.0-beta)** — scripts PowerShell para um painel de monitoramento no Windows, com uma versão original e uma versão personalizada para monitor secundário de 1280 × 400. A versão identifica o primeiro pacote de distribuição, sem novas funções dos scripts.
 
 Consulte as [instruções da versão personalizada](MinhaVersao/LEIA-ME.txt). As dependências externas devem ser instaladas separadamente. O download é um arquivo dos fontes e do executável preexistente; não é um instalador.
 
@@ -80,7 +80,7 @@ A preparação do repositório inclui análise sintática dos dois scripts pelo 
 
 ## Atualizações futuras
 
-Não foi definido um cronograma de novas funções. A integração ao Xiri Launcher depende da preparação de um pacote de distribuição compatível e da configuração de seu ponto de entrada. Esta publicação dos arquivos, por si só, não implementa instalação ou atualização automática.
+Não foi definido um cronograma de novas funções. A integração ao Xiri Launcher usa `xiri.json` e o pacote ZIP Windows com `SHA256SUMS.txt` publicado na release. A entrada é `MinhaVersao/Painel.ps1`, que continua exigindo o monitor e as ferramentas indicados acima. A integração completa depende de uma versão validada do Xiri Launcher.
 
 ## Publicação
 

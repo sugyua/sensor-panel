@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "visible": true,
+  "title": "Sensor Panel",
+  "category": "program",
+  "description": "Painel de CPU, GPU, memória e FPS para monitor secundário de 1280 × 400. Requer MSI Afterburner e RTSS para as leituras correspondentes.",
+  "windows": {
+    "asset": "sensor-panel-0.1.0-beta-windows-x64.zip",
+    "entry": { "kind": "powershell", "path": "MinhaVersao/Painel.ps1" }
+  }
+}
