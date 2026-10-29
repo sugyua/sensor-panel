@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>SensorPanel</AssemblyName>
+    <RootNamespace>SensorPanel</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Deterministic>true</Deterministic>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <Company>Sugyua Hardware Tools</Company>
+    <Product>Sensor Panel - Hardware &amp; FPS Monitor</Product>
+    <AssemblyTitle>Sensor Panel - Monitor de Hardware e Desempenho</AssemblyTitle>
+    <Description>Painel responsivo de monitoramento de CPU, GPU, RAM, Rede e FPS para Windows</Description>
+    <Copyright>Copyright (c) 2026 Sugyua. Todos os direitos reservados.</Copyright>
+    <Version>0.2.0.0</Version>
+    <FileVersion>0.2.0.0</FileVersion>
+    <InformationalVersion>0.2.0-beta</InformationalVersion>
+    <NeutralLanguage>pt-BR</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+  </ItemGroup>
+</Project>
